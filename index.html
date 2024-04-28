@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  .nav-links {
+    text-decoration: underline rgb(17, 202, 140) 1.5px !important;
+    color: rgb(17, 202, 140);
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: bolder;
+  }
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
+  <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
+  <link rel="apple-touch-icon" sizes="114x114" href="http://placehold.it/114.png/000/fff">
+  <link rel="apple-touch-icon" sizes="72x72" href="http://placehold.it/72.png/000/fff">
+  <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
+
+  <!-- Styles -->
+  <link href="css/lib/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lib/themify-icons.css" rel="stylesheet">
+  <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+  <link href="css/lib/helper.css" rel="stylesheet">
+  <link href="css/lib/toastr/toastr.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/app.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script>
+    function onSubmit(token) {
+      login();
+    }
+  </script>
+
+</head>
+<style>
+  /* .featureBox {
+    border: 1px solid rgb(17, 202, 140);
+    border-radius: 6px;
+  } */
+</style>
+
+<body style="background: #0d1117;">
+  <div class="unix-login">
+    <div class="container-fluid">
+      <div class="row justify-content-center"> <!-- Changed justify-content-left to justify-content-center -->
+        <div class="col-lg-12">
+          <div class="login-content" style="margin-top: 15px;">
+            <div class="login-logo float-left">
+              <a href="/">
+              <svg class="roots-wrapper" width="70%" viewBox="118.57 243.48 337.85 88.02">
+                <g transform="rotate(0 0 0)"><svg viewboxsize="575" data-root-id="3623193178510"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                    id="Layer_1" x="118.58999633789062" y="243.50253460693358"
+                    viewBox="40.47784423828125 14.189990997314453 419.051513671875 471.6300048828125"
+                    style="position: absolute; height: 87.995px; width: 78.185px; top: 243.503px; left: 118.59px;"
+                    xml:space="preserve" height="87.99494934082031" width="78.18502025496616"
+                    preserveAspectRatio="xMinYMin" zoom="1" editortype="buyer" data-layer-role="icon">
+                    <path class="st0"
+                      d="M231.11,438.11c1.53-2.64,3.59-4.79,5.86-6.7l-56.01-32.25l-0.15-109.11L68.97,225.59l0.1,90.69     c-2.97,0.77-5.9,1.8-8.68,3.41c-16.59,9.61-22.26,30.85-12.65,47.44c9.61,16.6,30.85,22.26,47.44,12.66     c16.6-9.61,22.26-30.85,12.66-47.44c-4.86-8.39-12.7-13.96-21.4-16.2l-0.07-60.5l77.09,44.43l0.15,109.11l64.54,37.17     C228.68,443.5,229.61,440.7,231.11,438.11z"
+                      style="fill: rgb(17, 202, 140); fill-opacity: 1;" name="Layer %{number}" zoom="1"
+                      data-layer-id="0449919778510"></path>
+                    <path class="st0"
+                      d="M156.68,93.42l-64.77,37.39c2.25,1.91,4.3,4.05,5.81,6.67c1.5,2.61,2.44,5.43,2.97,8.3l55.99-32.33     l94.5,54.53l111.79-64.51l-78.53-45.34c0.82-2.95,1.39-6,1.39-9.22c0-19.17-15.54-34.72-34.72-34.72     c-19.17,0-34.72,15.54-34.72,34.72s15.55,34.72,34.72,34.72c9.7,0,18.45-4,24.75-10.41l52.39,30.25l-77.07,44.48L156.68,93.42z"
+                      style="fill: rgb(17, 202, 140); fill-opacity: 1;" name="Layer %{number}" zoom="1"
+                      data-layer-id="1868633678510"></path>
+                    <path class="st0"
+                      d="M442.15,319.26c-16.61-9.58-37.84-3.88-47.42,12.73c-4.85,8.4-5.75,17.98-3.35,26.64l-52.37,30.28     l-0.03-88.99l94.44-54.64l-0.04-74.64c-2.73,0.97-5.62,1.6-8.68,1.6c-3.06,0-5.95-0.63-8.68-1.6l0.04,64.64l-94.44,54.62     l0.03,129.08l78.52-45.39c2.15,2.18,4.51,4.21,7.29,5.81c16.61,9.58,37.84,3.88,47.42-12.73     C464.46,350.07,458.76,328.84,442.15,319.26z"
+                      style="fill: rgb(17, 202, 140); fill-opacity: 1;" name="Layer %{number}" zoom="1"
+                      data-layer-id="9636038178510"></path>
+                    <path class="st1"
+                      d="M424.79,111.53c-19.27,0-34.72,15.45-34.72,34.72c0,4.17,0.7,7.99,2.09,11.63l-116.14,67.18l-0.02,0.01    c-6.3-6.46-15.08-10.49-24.82-10.49c-9.68,0-18.42,3.98-24.71,10.37l-0.1-0.06l-117.35-67.7c1.74-7.99,0.52-16.49-3.82-23.96    c-6.43-11.28-18.05-17.53-30.03-17.53c-5.9,0-11.81,1.56-17.36,4.69c-16.66,9.55-22.22,30.9-12.67,47.39    c6.42,11.28,18.05,17.36,30.03,17.36c5.9,0,11.8-1.39,17.36-4.51c3.47-2.08,6.59-4.69,9.03-7.64l116.31,67.01l0.02,0.01    c-0.83,2.98-1.42,6.06-1.42,9.3c0,16.16,11.1,29.63,26.05,33.49v0.25l-0.17,135.41c-7.64,2.43-14.41,7.81-18.75,15.28    c-9.55,16.67-3.82,37.84,12.67,47.39c5.55,3.3,11.46,4.69,17.36,4.69c11.98,0,23.61-6.25,30.03-17.36    c9.72-16.49,3.99-37.84-12.67-47.39c-3.47-2.08-7.47-3.47-11.29-3.99l0.17-134.19v-0.08c14.94-3.87,26.03-17.33,26.03-33.49    c0-3.24-0.59-6.31-1.42-9.29l0.04-0.02l117.35-67.7c6.08,5.38,14.06,8.68,22.91,8.68c19.1,0,34.72-15.62,34.72-34.72    C459.51,126.98,443.88,111.53,424.79,111.53z M85.92,163.96c-0.69,0.52-1.21,1.04-2.08,1.56c-2.6,1.56-5.56,2.26-8.68,2.26    c-6.08,0-11.98-3.3-15.11-8.68c-4.69-8.16-1.91-18.92,6.43-23.61c2.78-1.56,5.55-2.43,8.68-2.43c6.25,0,11.98,3.47,15.1,8.68    c1.04,1.74,1.74,3.82,1.91,5.73c0.52,2.43,0.52,5.03-0.17,7.46c-1.04,3.65-3.12,6.77-5.9,9.03H85.92z M262.3,436.16    c8.33,4.69,11.11,15.45,6.42,23.61c-3.12,5.38-8.85,8.68-15.1,8.68c-3.13,0-5.9-0.69-8.68-2.26c-8.33-4.86-11.11-15.45-6.25-23.78    c0.87-1.74,2.26-3.3,3.64-4.34c3.13-2.78,7.12-4.34,11.29-4.34c2.08,0,4.17,0.35,6.07,1.39    C260.56,435.29,261.43,435.64,262.3,436.16z M424.79,163.61c-2.08,0-4.17-0.35-5.9-1.04c-5.9-2.08-10.24-7.29-11.11-13.71    c-0.35-0.87-0.35-1.74-0.35-2.6c0-9.55,7.64-17.36,17.36-17.36c9.55,0,17.36,7.81,17.36,17.36S434.33,163.61,424.79,163.61z"
+                      style="fill: rgb(230, 237, 243); fill-opacity: 1;" name="Layer %{number}" zoom="1"
+                      data-layer-id="6913931778510"></path>
+                  </svg></g>
+                <g transform="rotate(0 0 0)"><svg viewboxsize="575" data-root-id="0785020678510"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="position: absolute; top: 299.26px; left: 213.59px; width: 0px; height: 0px;"
+                    x="213.58999633789062" y="299.2595346069336" viewBox="0 0 0 0" height="0" width="0"
+                    fonturl="http://fonts.gstatic.com/s/arimo/v29/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxsBxDAVQI4aA.ttf"
+                    zoom="1" editortype="buyer" data-layer-role="slogan">
+                    <g data-horizontal-grow="left" data-vertical-center="false" zoom="1" root="[object Object]"
+                      style="fill: rgb(52, 78, 93);">
+                      <path d="" transform="translate(0, 0)"></path>
+                    </g>
+                  </svg></g>
+                <g transform="rotate(0 0 0)"><svg viewboxsize="575" data-root-id="6621900478510"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="position: absolute; top: 270.74px; left: 213.59px; width: 242.82px; height: 23.52px;"
+                    x="213.58999633789062" y="270.7395346069336"
+                    viewBox="1.2599999904632568 -0.23999999463558197 242.82000732421875 23.520000457763672"
+                    height="23.520000457763672" width="242.82000732421875"
+                    fonturl="http://fonts.gstatic.com/s/josefinsans/v32/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_ObXXMFrLgTsQV0.ttf"
+                    zoom="1" editortype="buyer" data-layer-role="brandName">
+                    <g data-horizontal-grow="left" data-vertical-center="false" zoom="1" root="[object Object]"
+                      style="fill: rgb(17, 202, 140); fill-opacity: 1;">
+                      <path
+                        d="M15.78 2.43L14.46 5.10Q13.29 4.50 11.97 4.07Q10.65 3.63 9.45 3.63L9.45 3.63Q7.83 3.63 6.88 4.35Q5.94 5.07 5.94 6.33L5.94 6.33Q5.94 7.23 6.58 7.91Q7.23 8.58 8.27 9.08Q9.30 9.57 10.44 10.02L10.44 10.02Q11.43 10.38 12.40 10.88Q13.38 11.37 14.16 12.09Q14.94 12.81 15.39 13.88Q15.84 14.94 15.84 16.50L15.84 16.50Q15.84 18.21 14.98 19.64Q14.13 21.06 12.51 21.90Q10.89 22.74 8.58 22.74L8.58 22.74Q7.20 22.74 5.89 22.44Q4.59 22.14 3.42 21.61Q2.25 21.09 1.26 20.43L1.26 20.43L2.82 17.70Q3.54 18.24 4.47 18.69Q5.40 19.14 6.39 19.41Q7.38 19.68 8.25 19.68L8.25 19.68Q9.18 19.68 10.09 19.37Q11.01 19.05 11.63 18.36Q12.24 17.67 12.24 16.53L12.24 16.53Q12.24 15.60 11.71 14.94Q11.19 14.28 10.32 13.79Q9.45 13.29 8.43 12.90L8.43 12.90Q7.41 12.51 6.36 12.03Q5.31 11.55 4.39 10.85Q3.48 10.14 2.91 9.12Q2.34 8.10 2.34 6.60L2.34 6.60Q2.34 4.80 3.18 3.48Q4.02 2.16 5.50 1.38Q6.99 0.60 8.94 0.54L8.94 0.54Q11.25 0.54 12.88 1.10Q14.52 1.65 15.78 2.43L15.78 2.43ZM21.60 22.50L18.18 22.50L27.84-0.24L28.05-0.24L37.71 22.50L33.69 22.50L26.91 5.22L29.40 3.54L21.60 22.50ZM23.19 17.37L24.24 14.37L31.71 14.37L32.91 17.37L23.19 17.37ZM41.43 22.50L41.43 0.66L54.69 0.66L54.69 4.02L44.94 4.02L44.94 10.17L53.43 10.17L53.43 13.50L44.94 13.50L44.94 22.50L41.43 22.50ZM59.22 22.50L59.22 0.66L73.71 0.66L73.71 4.02L62.73 4.02L62.73 9.84L72.51 9.84L72.51 13.20L62.73 13.20L62.73 19.14L74.13 19.14L74.13 22.50L59.22 22.50ZM98.25 23.28L98.16 23.28L81.39 7.02L82.41 7.44L82.50 22.50L78.96 22.50L78.96-0.09L79.14-0.09L95.64 16.17L94.83 15.93L94.77 0.66L98.25 0.66L98.25 23.28ZM102.93 11.61L102.93 11.61Q102.93 9.33 103.80 7.32Q104.67 5.31 106.20 3.75Q107.73 2.19 109.75 1.30Q111.78 0.42 114.09 0.42L114.09 0.42Q116.37 0.42 118.39 1.30Q120.42 2.19 121.97 3.75Q123.51 5.31 124.39 7.32Q125.28 9.33 125.28 11.61L125.28 11.61Q125.28 13.92 124.39 15.95Q123.51 17.97 121.97 19.50Q120.42 21.03 118.39 21.89Q116.37 22.74 114.09 22.74L114.09 22.74Q111.75 22.74 109.74 21.89Q107.73 21.03 106.20 19.52Q104.67 18 103.80 15.98Q102.93 13.95 102.93 11.61ZM106.53 11.61L106.53 11.61Q106.53 13.23 107.11 14.64Q107.70 16.05 108.75 17.12Q109.80 18.18 111.18 18.78Q112.56 19.38 114.18 19.38L114.18 19.38Q115.74 19.38 117.11 18.78Q118.47 18.18 119.49 17.12Q120.51 16.05 121.09 14.64Q121.68 13.23 121.68 11.61L121.68 11.61Q121.68 9.96 121.08 8.55Q120.48 7.14 119.46 6.06Q118.44 4.98 117.06 4.38Q115.68 3.78 114.09 3.78L114.09 3.78Q112.50 3.78 111.12 4.38Q109.74 4.98 108.70 6.06Q107.67 7.14 107.10 8.57Q106.53 9.99 106.53 11.61ZM137.19 22.50L129.93 22.50L129.93 0.66L136.14 0.66Q139.38 0.66 141.68 1.65Q143.97 2.64 145.38 4.26Q146.79 5.88 147.44 7.88Q148.08 9.87 148.08 11.88L148.08 11.88Q148.08 14.34 147.21 16.29Q146.34 18.24 144.83 19.64Q143.31 21.03 141.34 21.77Q139.38 22.50 137.19 22.50L137.19 22.50ZM133.44 3.99L133.44 19.14L136.56 19.14Q138.30 19.14 139.74 18.64Q141.18 18.15 142.25 17.20Q143.31 16.26 143.90 14.85Q144.48 13.44 144.48 11.64L144.48 11.64Q144.48 9.60 143.81 8.15Q143.13 6.69 142.03 5.78Q140.94 4.86 139.65 4.43Q138.36 3.99 137.10 3.99L137.10 3.99L133.44 3.99ZM152.73 22.50L152.73 0.66L167.22 0.66L167.22 4.02L156.24 4.02L156.24 9.84L166.02 9.84L166.02 13.20L156.24 13.20L156.24 19.14L167.64 19.14L167.64 22.50L152.73 22.50ZM172.47 22.50L172.47 0.66L175.98 0.66L175.98 19.14L186.72 19.14L186.72 22.50L172.47 22.50ZM192.51 22.50L189.09 22.50L198.75-0.24L198.96-0.24L208.62 22.50L204.60 22.50L197.82 5.22L200.31 3.54L192.51 22.50ZM194.10 17.37L195.15 14.37L202.62 14.37L203.82 17.37L194.10 17.37ZM212.34 0.66L218.31 0.66Q221.64 0.66 223.58 2.01Q225.51 3.36 225.51 6.15L225.51 6.15Q225.51 8.01 224.64 9.32Q223.77 10.62 222.26 11.33Q220.74 12.03 218.70 12.09L218.70 12.09L218.16 10.23Q220.59 10.26 222.48 11.00Q224.37 11.73 225.47 13.06Q226.56 14.40 226.56 16.23L226.56 16.23Q226.56 17.94 225.95 19.13Q225.33 20.31 224.28 21.06Q223.23 21.81 221.91 22.16Q220.59 22.50 219.15 22.50L219.15 22.50L212.34 22.50L212.34 0.66ZM215.85 9.96L218.85 9.96Q220.44 9.96 221.18 9.04Q221.91 8.13 221.91 6.90L221.91 6.90Q221.91 5.40 220.98 4.71Q220.05 4.02 218.46 4.02L218.46 4.02L215.85 4.02L215.85 9.96ZM215.85 19.26L219.00 19.26Q220.11 19.26 221.01 18.95Q221.91 18.63 222.45 17.95Q222.99 17.28 222.99 16.26L222.99 16.26Q222.99 15.12 222.36 14.49Q221.73 13.86 220.77 13.59Q219.81 13.32 218.76 13.32L218.76 13.32L215.85 13.32L215.85 19.26ZM244.02 2.43L242.70 5.10Q241.53 4.50 240.21 4.07Q238.89 3.63 237.69 3.63L237.69 3.63Q236.07 3.63 235.13 4.35Q234.18 5.07 234.18 6.33L234.18 6.33Q234.18 7.23 234.83 7.91Q235.47 8.58 236.51 9.08Q237.54 9.57 238.68 10.02L238.68 10.02Q239.67 10.38 240.65 10.88Q241.62 11.37 242.40 12.09Q243.18 12.81 243.63 13.88Q244.08 14.94 244.08 16.50L244.08 16.50Q244.08 18.21 243.23 19.64Q242.37 21.06 240.75 21.90Q239.13 22.74 236.82 22.74L236.82 22.74Q235.44 22.74 234.14 22.44Q232.83 22.14 231.66 21.61Q230.49 21.09 229.50 20.43L229.50 20.43L231.06 17.70Q231.78 18.24 232.71 18.69Q233.64 19.14 234.63 19.41Q235.62 19.68 236.49 19.68L236.49 19.68Q237.42 19.68 238.34 19.37Q239.25 19.05 239.87 18.36Q240.48 17.67 240.48 16.53L240.48 16.53Q240.48 15.60 239.96 14.94Q239.43 14.28 238.56 13.79Q237.69 13.29 236.67 12.90L236.67 12.90Q235.65 12.51 234.60 12.03Q233.55 11.55 232.64 10.85Q231.72 10.14 231.15 9.12Q230.58 8.10 230.58 6.60L230.58 6.60Q230.58 4.80 231.42 3.48Q232.26 2.16 233.75 1.38Q235.23 0.60 237.18 0.54L237.18 0.54Q239.49 0.54 241.13 1.10Q242.76 1.65 244.02 2.43L244.02 2.43Z"
+                        transform="translate(0, 0)"></path>
+                    </g>
+                  </svg></g>
+              </svg>
+            </a>
+              <!-- <p>Your Advanced Android App Security Scanner</p> -->
+            </div>
+            <div class="login-logo float-right" style="margin-top: 15px;">
+              <a href="/wiki" class="nav-links">Blogs</a>
+              <a href="/wiki" class="nav-links">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <!-- Features Section -->
+        <div class="col-lg-10 features-section" style="margin-left: 7%; margin-top: 8%;">
+          <!-- Added col-lg-10 class here -->
+          <div class="row">
+            <div class="col-md-6 featureBox">
+              <div class="feature-box">
+
+                <h1 style="color: rgb(17, 202, 140); font-weight: bolder; font-size: 48px;">Android Application
+                  Vulnerability Scanner</h1>
+              </div>
+              <p style="font-size: 16px; line-height: 25px;">Identify vulnerabilities and assess security risks in<br>
+                your Android
+                applications.</p>
+              <a href="/dashboard" class="btn-custom"
+                style="background-color: #0d1117; border: 1.5px solid rgba(240,246,252,0.1); color:rgb(17, 202, 140);">
+                <span style="width: 1em; display: inline-block;"><i class="fas fa-play"></i></span> <span
+                  style="color: #e6edf3;">Start Scan</span>
+              </a>
+
+            </div>
+            <div class="col-md-2 featureBox" style="margin-left: 4%; margin-top: -12%;">
+              <img src="images/home-page-illustrator.svg" height="500" width="500">
+            </div>
+          </div>
+        </div>
+        <style>
+          .featureBoxList {
+            font-size: 16px;
+            margin-left: 20px;
+            margin-top: 20px;
+            border: 0.5px solid rgba(240, 246, 252, 0.1);
+            border-radius: 10px;
+            color: hsl(208, 35%, 93%);
+            padding-bottom: 1%;
+            padding-right: 1%
+          }
+
+          .featureBoxList:hover{
+            border: 0.5px solid rgb(17, 202, 140);
+          }
+
+          .feature-icon {
+            font-size: 16px;
+          }
+
+           .feature-img {
+            margin-bottom: 10px;
+            margin-top: -8%;
+            margin-left: 37%;
+          }
+        </style>
+         <div class="col-lg-10 features-section" style="margin-left: 7%; margin-top: 12%;margin-bottom: 0%;">
+          <!-- Added col-lg-10 class here -->
+          <div>
+            <h1 class="feature-heading" style="color:rgb(17, 202, 140)">Features</h1>
+          </div>
+          <div class="row" style="margin-top: 1.5%;">
+            <div class="col-md-5 featureBoxList">
+              <div class="feature-box">
+                <span class="feature-icon"><img class="feature-img" src="images/bug-svg.svg" width="100" style="height: 35px; position: relative; z-index: 2 !important;"></span><br>Elevate your Android application's security with our thorough in-depth scan. Ensure complete protection by covering all aspects and fortifying against potential threats.<br>
+              </div>
+            </div>
+            <div class="col-md-5 featureBoxList">
+              <span class="feature-icon"><img class="feature-img" src="images/clock-svg.svg" width="100" height="50" style="height: 35px; position: relative; z-index: 2 !important;"></span>
+              <br>Save time and enhance bug detection with our efficient scanning feature. Identify more bugs quickly, allowing for swift resolution. Streamline your process and ensure a robust, bug-free Android application.<br>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col-md-5 featureBoxList">
+              <div class="feature-box">
+                <span class="feature-icon"><img class="feature-img" src="images/report-svg.svg" width="100" height="50" style="height: 35px; position: relative; z-index: 2 !important;"></span><br>Access detailed reports featuring exploit codes for comprehensive testing. Dive deep into vulnerabilities, enabling proactive identification and resolution. Utilize exploit codes to uncover potential risks, ensuring thorough security assessments for your application<br>
+              </div>
+            </div>
+            <div class="col-md-5 featureBoxList">
+              <div class="feature-box">
+               
+                  <span class="feature-icon"><img class="feature-img"  src="images/filter.svg" width="100" height="50" style="height: 35px; position: relative; z-index: 2 !important;"></span><br>
+                  Easily filter vulnerabilities by severity, ensuring efficient prioritization of issues. Tailor your focus to the most pressing concerns for optimal risk mitigation
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-5 featureBoxList">
+                <div class="feature-box">
+                  <span class="feature-icon"><img class="feature-img" src="images/dataflow.svg" width="100" height="50" style="height: 35px; position: relative; z-index: 2 !important;"></span><br>Effortlessly visualize code and data flow diagrams, gaining insight into vulnerability pathways. Understand vulnerabilities at a glance for enhanced problem-solving<br>
+                </div>
+              </div>
+             
+              <div class="col-md-5 featureBoxList">
+                <div class="feature-box">
+               
+                    <span class="feature-icon"><img class="feature-img"  src="images/contactus1.svg" width="100" height="50" style="height: 35px; position: relative; z-index: 2 !important;"></span><br>
+                   
+                    Whenever you need assistance, we're here to help with reliable support. Our team is ready to solve any problem you encounter, quickly and effectively. Count on us for trustworthy assistance whenever you need it
+                    
+                  </div>
+                </div>
+
+
+              </div>
+
+
+
+
+            <!-- <a href="/demo_reports" style="color: #e6edf3; text-decoration: underline rgb(17, 202, 140) 1.5px !important; color: rgb(17, 202, 140); margin-left: 3px; font-weight: bolder; line-height: 70px;">
+                      <span class="feature-icon"><i class="fas fa-file-alt"></i></span> View Sample Report
+                    </a> -->
+            <br>
+          </div>
+
+        <div class="col-lg-10 features-section" style="margin-left: 7%; margin-top: 8%;margin-bottom: 8%;">
+          <!-- Added col-lg-10 class here -->
+          <div>
+            <h1 class="feature-heading" style="color:rgb(17, 202, 140);">Get coverage of OWASP Top 10 Vulnerabilities
+            </h1>
+          </div>
+          <br>
+          <style>
+            .vulnList{
+              color: #e6edf3;
+              font-size: 16px
+            }
+            .subVuln{
+              margin-left: 28px;
+            }
+          </style>
+          <div class="row">
+            <div class="col-md-4 vulnList">
+              <img src="images/tick-svg.svg" width="24" height="24">
+              <span style="font-size: 18px; line-height: 44px; font-weight: bold">WebView Vulnerabilities</span>
+              <!-- <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Deep Link Hijacking
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Use of custom deeplink -->
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Webview loads clear-text
+              <!-- <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Cross Site Request Forgery through Deep link -->
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Insufficient URL Validation
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Universal Cross Site Scripting
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Javascript Code injection
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Theft of Arbitrary Files
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Misconfigured WebResourceResponse
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> 
+              Exfiltration of component data
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Screen overlay attacks
+              
+            </div>
+            <div class="col-md-4 vulnList">
+              <img src="images/tick-svg.svg" width="24" height="24"><span style="font-size: 18px; line-height: 40px; font-weight: bold"> Insecure data storage</span>
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Hardcoded Secrets
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Unencrypted Database files
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Information Disclosure through Logcat
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Copy/Paste Buffer Caching
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Keyboard Press Caching
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Sensitive data is exposed via IPC
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;">
+              UI exposes sensitive information
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Storing sensitive data on SD card
+            </div>
+            <div class="col-md-4 vulnList">
+              <img src="images/tick-svg.svg" width="24" height="24" style="position: relative; /* Ensures content stays above the overlay */
+              z-index: 2;"><span style="font-size: 18px; line-height: 40px; font-weight: bold"> Intents Vulnerabilities</span>
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Intent Redirection
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Intent Interception
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Intent Spoofing
+              <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Accessing protected components
+            </div>
+          </div>
+
+<div class="row">
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24"><span style="font-size: 18px; line-height: 40px; font-weight: bold"> Improper platform Usage</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Unrestricted backup File
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Debuggable application
+  </div>
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24">
+    <span style="font-size: 18px; line-height: 40px; font-weight: bold">App permissions Vulnerabilities</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Custom permission with typo
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Insufficient protection of permission
+  </div>
+
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24"><span style="font-size: 18px; line-height: 40px; font-weight: bold"> Ui Based Attacks</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Tap Jacking
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Task Hijacking
+  </div>
+  </div>
+
+<div class="row">
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24">
+    <span style="font-size: 18px; line-height: 40px; font-weight: bold">Others</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> SQL Injections in Content Provider
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Arbitrary code execution 
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Denial of Service attack
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> 
+    Misconfigured Firebase
+  </div>
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24">
+    <span style="font-size: 18px; line-height: 40px; font-weight: bold">Client code quality</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> App is Not properly Signed
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Improper Exception Handling
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Improper Error Handling
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;">  Use of vulnerable third-party components
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Application having debugging symbols
+  </div>
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24">
+    <span style="font-size: 18px; line-height: 40px; font-weight: bold">Insecure-communication</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Use of insecure protocol
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> No SSL pinning Implementation
+  </div>
+
+<div class="row">
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24">
+    <span style="font-size: 18px; line-height: 40px; font-weight: bold">Insufficient cryptography</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Hardcoded encryption key
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Insecure random number generator
+  </div>
+
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24">
+    <span style="font-size: 18px; line-height: 40px; font-weight: bold">Insecure Authentication</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Local Authentication
+  </div>
+  
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24">
+    <span style="font-size: 18px; line-height: 40px; font-weight: bold">Reverse-engineering</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Source code Not Obfuscated
+  </div>
+  <div class="col-md-4 vulnList">
+    <img src="images/tick-svg.svg" width="24" height="24">
+    <span style="font-size: 18px; line-height: 40px; font-weight: bold">Extraneous-functionality</span>
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Exposing Sensitive Endpoint
+    <br><img src="images/minus-svg.svg" width="16" height="16" style="margin-left: 28px;"> Unintended Test Code Leakage in Release
+  </div>
+      </div>
+    </div>
+<!-- CONTACT US -->
+<div style="margin-top: 10%;">
+</div>
+
+</div>
+<div class="footer" style="float: right; margin-bottom: 2%; margin-right: 2%;">
+  <a href="/terms-and-condition" style="color: rgb(17, 202, 140)">Terms & Conditions</a>
+</div>
+  <script src="js/lib/preloader/pace.min.js"></script>
+  <script src="js/lib/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/lib/toastr/toastr.min.js"></script>
+  <script src="js/lib/toastr/toastr.init.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
